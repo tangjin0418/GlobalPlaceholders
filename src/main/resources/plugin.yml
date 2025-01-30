@@ -1,0 +1,10 @@
+name: GlobalPlaceholders
+version: '1.0-SNAPSHOT'
+main: org.tjdev.custom.globalplaceholders.GlobalPlaceholders
+api-version: '1.20'
+authors: [ TangJin ]
+description: Custom styles / colors for your server with global placeholders.
+website: tjservice.org
+folia-supported: true
+depend:
+  - PlaceholderAPI
