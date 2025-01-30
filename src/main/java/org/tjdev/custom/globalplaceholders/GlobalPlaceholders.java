@@ -43,7 +43,7 @@ public final class GlobalPlaceholders extends TJPlugin {
             public String request(Player p, String s) {
                 var str = map.get(s);
                 if (str == null) return DEFAULT_COLOR_API.color("<red><white>%s</white> not exist.</red>".formatted(s));
-                return DEFAULT_COLOR_API.color(escapeLegacy(PAPI.setBracket(p, s)));
+                return DEFAULT_COLOR_API.color(escapeLegacy(PAPI.setBracket(p, str)));
             }
         };
         papi.register();
