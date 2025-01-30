@@ -6,7 +6,7 @@
 
     <groupId>org.tjdev.custom</groupId>
     <artifactId>globalplaceholders</artifactId>
-    <version>5</version>
+    <version>8</version>
     <packaging>jar</packaging>
 
     <name>GlobalPlaceholders</name>
