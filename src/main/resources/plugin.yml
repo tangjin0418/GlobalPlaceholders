@@ -1,5 +1,5 @@
 name: GlobalPlaceholders
-version: '1.0-SNAPSHOT'
+version: ${project.version}
 main: org.tjdev.custom.globalplaceholders.GlobalPlaceholders
 api-version: '1.20'
 authors: [ TangJin ]
