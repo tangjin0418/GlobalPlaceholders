@@ -73,7 +73,7 @@ public final class GlobalPlaceholders extends TJPlugin {
                         get(entityData, value.name(), LangDownload.get(value.translationKey()))
                 );
             }
-            configData.options().setHeader(
+            entityData.options().setHeader(
                     List.of(
                             "%globalplaceholders_[entity.ZOMBIE]% -> Zombie",
                             "You can even add custom colors or some style like `ᴢᴏᴍʙɪᴇ`!"
@@ -85,7 +85,7 @@ public final class GlobalPlaceholders extends TJPlugin {
             var itemData = YamlConfig.loadConfiguration(item);
             for (Material value : Material.values())
                 map.put("item." + value.name(), get(itemData, value.name(), LangDownload.get(value.translationKey())));
-            configData.options().setHeader(List.of(
+            itemData.options().setHeader(List.of(
                     "%globalplaceholders_[item.DIAMOND_ORE]% -> Diamond Ore",
                     "Same with above."
             ));
